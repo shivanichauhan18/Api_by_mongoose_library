@@ -1,6 +1,4 @@
 'use strict';
 
 module.exports = { 
-     url : "mongodb://localhost:27017/",
-     useNewUrlParser: true
- }
+     url : "mongodb://localhost:27017/loan_managment" }
