@@ -7,11 +7,15 @@ var logger = require('morgan')
 var cookieParser = require('cookie-parser')
 var bodyParser = require('body-parser')
 
-var db = require("./model/db")
-var blob = require('./model/blobs');
+// var config = require("./config/connection")
+var conn = require("./config/db")
+// console.log(conn)
 
-var blobs = require('./routes/blobs');
-app.use('/blobs', blobs);
+// var db = require("./model/db")
+// var blob = require('./model/blobs');
+
+// var blobs = require('./routes/blobs');
+// app.use('/blobs', blobs);
 
 
 
